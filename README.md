@@ -21,26 +21,3 @@ IDE (Eclipse, IntelliJ, or VS Code)
 In this case study, we have built a simple library management system using Spring Boot with Spring Data JPA and RESTful web services. 
 We have created entities, repositories, services, and REST controllers to manage books and authors in the library system.
 **************************************************************************************************************************************
-library-management-system/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── example/
-│   │   │           └── library/
-│   │   │               ├── LibraryApplication.java
-│   │   │               ├── controller/
-│   │   │               │   ├── AuthorController.java
-│   │   │               │   └── BookController.java
-│   │   │               ├── model/
-│   │   │               │   ├── Author.java
-│   │   │               │   └── Book.java
-│   │   │               ├── repository/
-│   │   │               │   ├── AuthorRepository.java
-│   │   │               │   └── BookRepository.java
-│   │   │               └── service/
-│   │   │                   └── LibraryService.java
-│   │   └── resources/
-│   │       ├── application.yaml
-├── pom.xml
-└── README.md
